@@ -312,6 +312,6 @@ class mobileLib():
         raise Exception('message: 未找到对应的项目ID 请联系作者添加')
 if __name__ == '__main__':
     MOBILE = mobileLib()
-    print(MOBILE.login(username='sinyung222',password='35242388', type='鲨鱼'))
+    print(MOBILE.login(username='',password='', type='鲨鱼'))
     print(MOBILE.getMobile(project='香港NIKE'))
     #MOBILE.login(username='mnbv1775',password='990726ccl',type='号码短租')
